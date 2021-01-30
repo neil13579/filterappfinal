@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    border: 25px solid black;
+    animation-name: cam_background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cam_background {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+    to {
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
+
+.btn-success:hover {
+    background-color: blue;
+}
